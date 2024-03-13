@@ -1,10 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.FirstAndroidApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Base.Theme.CookIt" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Customize your light theme here. -->
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#607D8B</item>
-        <item name="colorPrimaryVariant">#455A64</item>
+        <item name="colorPrimary">@color/appbar</item>
+        <item name="colorPrimaryVariant">@color/appbar</item>
         <item name="colorOnPrimary">#FFFFFF</item>
          <!--Secondary brand color. -->
         <item name="colorSecondary">#FFC107</item>
@@ -14,5 +14,5 @@
          <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.FirstAndroidApp" parent="Base.Theme.FirstAndroidApp" />
+    <style name="Theme.CookIt" parent="Base.Theme.CookIt" />
 </resources>
