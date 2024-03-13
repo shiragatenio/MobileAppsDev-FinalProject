@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.firstandroidapp'
+    namespace 'com.example.cookit'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.firstandroidapp"
+        applicationId "com.example.cookit"
         minSdk 29
         targetSdk 34
         versionCode 1
