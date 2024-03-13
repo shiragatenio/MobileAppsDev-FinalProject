@@ -22,7 +22,7 @@ public class RecipeAdapter extends RecyclerView.Adapter<RecipeViewHolder> {
         Recipes.add(new Recipe(R.drawable.food2,"Orange Soup","40 min", "Italian"));
         Recipes.add(new Recipe(R.drawable.food4,"Red Spaghetti","25 min", "Italian"));
         Recipes.add(new Recipe(R.drawable.food5,"Caesar Salad","25 min", "Salad"));
-        Recipes.add(new Recipe(R.drawable.food5,"Som Tam","25 min", "Asian"));
+        Recipes.add(new Recipe(R.drawable.food6,"Som Tam","25 min", "Asian"));
     }
 
     @NonNull
