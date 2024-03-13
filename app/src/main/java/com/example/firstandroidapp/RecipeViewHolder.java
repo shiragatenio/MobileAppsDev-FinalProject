@@ -9,18 +9,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import org.jetbrains.annotations.NotNull;
 
 
-public class ContactViewHolder extends RecyclerView.ViewHolder {
+public class RecipeViewHolder extends RecyclerView.ViewHolder {
 
-    public ImageView Avatar;
+    public ImageView Image;
     public TextView Name;
-    public TextView Email;
+    public TextView PrepTime;
 
-    public ContactViewHolder(@NotNull View itemView) {
+    public RecipeViewHolder(@NotNull View itemView) {
         super(itemView);
-        Avatar = itemView.findViewById(R.id.avatar);
+        Image = itemView.findViewById(R.id.image);
         Name = itemView.findViewById(R.id.name);
-        Email = itemView.findViewById(R.id.email);
-
+        PrepTime = itemView.findViewById(R.id.preptime);
     }
 
 }
