@@ -1,6 +1,7 @@
 package com.example.cookit;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -13,14 +14,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        RecyclerView rv = findViewById(R.id.rv);
-        rv.setHasFixedSize(false);
 
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
-        rv.setLayoutManager(layoutManager);
 
-        RecipeAdapter adapter = new RecipeAdapter();
-        rv.setAdapter(adapter);
+        RecyclerView viewRecipes = findViewById(R.id.view_recipes);
+        viewRecipes.setHasFixedSize(false);
+
+        RecyclerView.LayoutManager layoutManagerRecipes = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        viewRecipes.setLayoutManager(layoutManagerRecipes);
+
+        RecipeAdapter recipeAdapter = new RecipeAdapter();
+        viewRecipes.setAdapter(recipeAdapter);
+
+
+
+
+        RecyclerView viewKitchens = findViewById(R.id.view_kitchens);
+        viewKitchens.setHasFixedSize(false);
+
+        RecyclerView.LayoutManager layoutManagerKitchens = new GridLayoutManager(this, 3);
+        viewKitchens.setLayoutManager(layoutManagerKitchens);
+
+        KitchenAdapter kitchenAdapter = new KitchenAdapter();
+        viewKitchens.setAdapter(kitchenAdapter);
 
 
 //        Button btn = findViewById(R.id.button);
