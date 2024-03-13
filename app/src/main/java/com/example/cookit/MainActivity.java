@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        // Recipes
 
         RecyclerView viewRecipes = findViewById(R.id.view_recipes);
         viewRecipes.setHasFixedSize(false);
@@ -25,8 +25,7 @@ public class MainActivity extends AppCompatActivity {
         RecipeAdapter recipeAdapter = new RecipeAdapter();
         viewRecipes.setAdapter(recipeAdapter);
 
-
-
+        // Kitchens
 
         RecyclerView viewKitchens = findViewById(R.id.view_kitchens);
         viewKitchens.setHasFixedSize(false);
@@ -36,18 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
         KitchenAdapter kitchenAdapter = new KitchenAdapter();
         viewKitchens.setAdapter(kitchenAdapter);
-
-
-//        Button btn = findViewById(R.id.button);
-//        btn.setText("Click Me!");
-//
-//        btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                //btn.setText("Button Clicked!");
-//                Toast.makeText(v.getContext(),"Button Clicked",Toast.LENGTH_LONG).show();
-//            }
-//        });
 
     }
 }

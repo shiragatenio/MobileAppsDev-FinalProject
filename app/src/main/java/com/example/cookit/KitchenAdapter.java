@@ -35,7 +35,7 @@ public class KitchenAdapter extends RecyclerView.Adapter<KitchenViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull KitchenViewHolder holder, int position) {
         String kitchen = Kitchens.get(position);
-        holder.Name.setText(kitchen);
+        holder.Button.setText(kitchen);
     }
 
     @Override
