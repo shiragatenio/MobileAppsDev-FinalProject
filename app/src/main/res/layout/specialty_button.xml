@@ -8,17 +8,17 @@
     tools:layout_editor_absoluteY="10dp">
 
     <ImageView
-        android:id="@+id/image"
+        android:id="@+id/specialty_image"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/food1" />
+        app:srcCompat="@drawable/recipeload7" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/specialty_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -29,10 +29,10 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image" />
+        app:layout_constraintTop_toBottomOf="@+id/specialty_image" />
 
     <TextView
-        android:id="@+id/preptime"
+        android:id="@+id/specialty_preptime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
@@ -42,6 +42,6 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
+        app:layout_constraintTop_toBottomOf="@+id/specialty_name" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

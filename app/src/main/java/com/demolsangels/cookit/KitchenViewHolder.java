@@ -1,4 +1,4 @@
-package com.example.cookit;
+package com.demolsangels.cookit;
 
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +14,7 @@ public class KitchenViewHolder extends RecyclerView.ViewHolder {
 
     public KitchenViewHolder(@NotNull View itemView) {
         super(itemView);
-        Button = itemView.findViewById(R.id.button);
+        Button = itemView.findViewById(R.id.kitchen_button);
     }
 
 }

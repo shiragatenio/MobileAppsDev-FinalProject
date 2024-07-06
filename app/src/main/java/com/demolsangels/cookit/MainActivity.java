@@ -1,29 +1,37 @@
-package com.example.cookit;
+package com.demolsangels.cookit;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
+
+    @Override
+    protected int getLayoutResourceId() {
+        return R.layout.activity_main;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
-        // Recipes
+        // Specialties
 
-        RecyclerView viewRecipes = findViewById(R.id.view_recipes);
+        RecyclerView viewRecipes = findViewById(R.id.view_specialties);
         viewRecipes.setHasFixedSize(false);
 
         RecyclerView.LayoutManager layoutManagerRecipes = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         viewRecipes.setLayoutManager(layoutManagerRecipes);
 
-        RecipeAdapter recipeAdapter = new RecipeAdapter();
-        viewRecipes.setAdapter(recipeAdapter);
+        SpecialtyAdapter specialtyAdapter = new SpecialtyAdapter();
+        viewRecipes.setAdapter(specialtyAdapter);
 
         // Kitchens
 

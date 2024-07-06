@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="apptext">#546526</color>
     <color name="appbar">#546526</color>
+    <color name="applight">#A2B578</color>
 </resources>

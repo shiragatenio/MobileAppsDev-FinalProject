@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CookIt</string>
+    <string name="nav_title_home">Home</string>
+    <string name="nav_title_add">Add Recipe</string>
+    <string name="nav_title_about">About</string>
+    <string name="about_text">We are a group of food enthusiasts who came together to create this app out of our shared love for food. Our goal is to make cooking enjoyable and accessible for everyone. We hope you find our app helpful and fun as you explore new recipes and share your culinary creations. Happy cooking!</string>
 </resources>

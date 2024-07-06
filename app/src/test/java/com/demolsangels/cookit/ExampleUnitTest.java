@@ -1,4 +1,4 @@
-package com.example.cookit;
+package com.demolsangels.cookit;
 
 import org.junit.Test;
 

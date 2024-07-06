@@ -6,12 +6,12 @@
         <item name="colorPrimary">@color/appbar</item>
         <item name="colorPrimaryVariant">@color/appbar</item>
         <item name="colorOnPrimary">#FFFFFF</item>
-         <!--Secondary brand color. -->
+        <!--Secondary brand color. -->
         <item name="colorSecondary">#FFC107</item>
         <item name="colorOnSecondary">#000000</item>
-         <!-- Status bar color. -->
+        <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-         <!-- Customize your theme here. -->
+        <!-- Customize your theme here. -->
         <item name="android:windowBackground">@drawable/mainphoto</item>
     </style>
 

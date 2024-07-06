@@ -1,4 +1,4 @@
-package com.example.cookit;
+package com.demolsangels.cookit;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.cookit", appContext.getPackageName());
+        assertEquals("com.demolsangels.cookit", appContext.getPackageName());
     }
 }
